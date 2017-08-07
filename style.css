@@ -37,9 +37,15 @@ h1 {
   font-size: 32px;
 	margin-bottom: 20px;
 	padding:5px;
-  
 }
 
+h2 {
+  text-align:center;
+}
+
+h3 {
+  text-align: center;
+}
 
 nav {
   margin: auto;
@@ -107,16 +113,10 @@ footer {
   position: fixed;
 }
 
-.right {
-  
-}
-
-.left {
-  
-}
-
 .bloghead {
-  
+  display: flex;
+  justify-content:center;
+  padding-left: 200px;
 }
 
 .content h3 {
@@ -125,8 +125,20 @@ footer {
 }
 
 .blogimg img {
+  justify-content: center;
   height:350px;
 	width:250px;
 	padding: 0 10px;
 	
+}
+
+.social {
+  display:flex;
+  justify-content: center;
+}
+
+.social img {
+  height:5%;
+  width:5%;
+  padding: 10px;
 }
